@@ -1,0 +1,49 @@
+body {
+  background-color: #B2C4AB;
+}
+
+nav {
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+h1 {
+  font-family: 'Turret Road', cursive;
+  font-weight:bolder;
+  font-size: 5em;
+  background-color: white;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.map {
+  max-width: 25%;
+  max-height: 25%;
+  border-style: solid;
+}
