@@ -1,27 +1,35 @@
 body {
-  background-color: #B2C4AB;
+  background-color: black;
+ margin: 0;
 }
 
 nav {
-  
+  align-items: center;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
 }
 
-li {
+nav li {
   float: left;
+  display: inline;
+  width: 16.645%;
+  font-size: 1.5vw;
 }
-
+img{
+  maxwidth:100%;
+  height:auto;
+}
 h1 {
-  font-family: 'Turret Road', cursive;
-  font-weight:bolder;
-  font-size: 5em;
+
+ font-family: 'Turret Road', cursive;
+  font-weight: bolder;
+  font-size: 3vw;
   background-color: white;
   text-align: center;
 }
@@ -29,21 +37,33 @@ h1 {
 li a {
   display: block;
   color: black;
-  background-color: white;
+  background-color: #BD3DFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-
 li a:hover {
   background-color: #111;
   color: white;
+}
+
+@media screen and (max-width: 460px) {
+  li {
+    width: 100% !important;
+    float: none !important;
+  }
 }
 
 .map {
   max-width: 25%;
   max-height: 25%;
   border-style: solid;
+}
+.welcome{
+max-width: 100%;
+max-height:100%;
+padding-top: 0;
+
 }
