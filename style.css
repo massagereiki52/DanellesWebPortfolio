@@ -1,6 +1,6 @@
 body {
   background-color: black;
- margin: 0;
+  margin: 0;
 }
 
 nav {
@@ -21,19 +21,26 @@ nav li {
   width: 16.645%;
   font-size: 1.5vw;
 }
-img{
-  maxwidth:100%;
-  height:auto;
+
+img {
+  max-width: 100%;
+  height: auto;
 }
+
 h1 {
-
- font-family: 'Turret Road', cursive;
-  font-weight: bolder;
-  font-size: 3vw;
-  background-color: white;
+  font-family: 'Luminari';
+  font-size: 10vw;
   text-align: center;
+  color: white;
+  padding:0;
 }
 
+@font-face {
+font-family: 'Luminari';
+font-style: normal;
+font-weight:bolder;
+src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
+}
 li a {
   display: block;
   color: black;
@@ -61,9 +68,9 @@ li a:hover {
   max-height: 25%;
   border-style: solid;
 }
-.welcome{
-max-width: 100%;
-max-height:100%;
-padding-top: 0;
 
+.item1 {
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 0;
 }

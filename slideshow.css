@@ -1,0 +1,117 @@
+.mySlides {
+  display: none
+}
+
+
+/* Slideshow container */
+/*.Box{
+    background-color: white;
+    position:absolute;*/
+
+}
+.slideshow-container {
+  max-width: 100%;
+  position:relative;
+  margin-left: 5em;
+  margin-bottom: 10em;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+  cursor: pointer;
+  position:static;
+  top: 50%;
+  width: auto;
+  padding: 5px;
+  margin-top: -22px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #000099;
+  color:white;
+}
+
+/* Caption text */
+
+.text {
+  color:white;
+  font-size: 30px;
+  padding: 8px 12px;
+  position:absolute;
+  bottom:8px;
+  width: 100%;
+  text-align: center;
+}
+
+/*.text-margin{
+
+}*/
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  padding-bottom: 1px;
+  margin: 0 2px;
+  background-color:  #000099;
+  opacity: 0.5;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width:2000px;) {
+  .prev, .next, .text {
+    font-size: 11px;
+  }
+}
