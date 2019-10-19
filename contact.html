@@ -6,9 +6,9 @@
   <title>Portfolio</title>
   <!-- style -->
   <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Barriecito|Love+Ya+Like+A+Sister|Turret+Road&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barriecito|Love+Ya+Like+A+Sister|Turret+Road&display=swap" rel="stylesheet">
 
-<!-- main -->
+  <!-- main -->
   <link rel="welcome" href="index.html">
   <link rel="About" href="about.html">
   <link rel="Dynamic Web Pages" href="dynamic.html">
@@ -20,8 +20,8 @@
 
 <body>
 
-    <div class="welcome">
-  <img src="assets/webPortfolio.tif" alt="picture Danelle's Portfolio">
+  <div class="welcome">
+    <img src="assets/webPortfolio.tif" alt="picture Danelle's Portfolio">
     <nav>
       <ul>
         <li>
@@ -47,29 +47,47 @@
 
 
   </div>
+  <div class="row">
+    <div class="column">
+      <a href="https://www.google.com/maps/place/Isanti,+MN+55040/@45.4913394,-93.2573177,14z/data=!3m1!4b1!4m5!3m4!1s0x52b305b64fc3cf1f:0xf932449b0fbde105!8m2!3d45.4894008!4d-93.2476091?hl=en&authuser=0">
+        <img src="assets/map.png" alt="Map to Isanti">
+      </a>
+      <figcaption>Click Location</figcaption>
+      <p></p>
+    </div>
+    <div class="column">
+      <p>Designs by Danelle <br>
+        12345 addresway <br>
+        Isanti, MN 5504 <br>
+        <a href="mailto:danelle.vanvleet@gmail.com">CLICK TO EMAIL</a><br>
+        <a href="tel:612-999-7891">CLICK TO CALL: 612-999-7891</a></p>
 
+    </div>
+    <div class="column form">
+      <form action="/action_page.php">
+        <labe for="name">Name:</label><br>
+        <input type="text" name="lastname" value="name"><br>
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="text" name="Phone_number" value="phone number"><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="Email" value="Email"><br>
+        <label for="subject">Comment:</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200%"></textarea>
 
-  <img class="map" src="map.png" alt="map">
+        <input type="submit" value="Submit">
+        <input type="submit" value="Reset">
+      </form>
+    </div>
 
-  <form action="/action_page.php">
-    Name:<br>
-    <input type="text" name="lastname" value="name"><br>
-    Phone:
-    <br>
-    <input type="text" name="Phone_number" value="phone number"><br><br>
-    Email:
-    <br>
-    <input type="text" name="Email" value="Email"><br><br>
-    <label for="subject">Comment:</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+    <div class="footer">
+      <footer>
+        &copy;2019DanelleVanVleet
+      </footer>
+    </div>
 
-    <input type="submit" value="Submit">
-  </form>
 </body>
-<footer>
-  <p>
-    &copy; 2019 Danelle VanVleet
-  </p>
-</footer>
+
 
 </html>
