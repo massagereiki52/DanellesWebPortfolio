@@ -74,19 +74,6 @@ figcaption {
   font-size: 1.25vw;
   text-align: center;
 }
-
-.map {
-  max-width: 25%;
-  max-height: 25%;
-  border-style: solid white;
-}
-
-.form {
-  content: "";
-  clear: both;
-  display: table;
-  padding-left: 5%;
-}
 label{
   color:white;
 }
@@ -108,6 +95,19 @@ input[type=button], input[type=submit], input[type=reset] {
   margin: 4px 2px;
   cursor: pointer;
 }
+.map {
+  max-width: 25%;
+  max-height: 25%;
+  border-style: solid white;
+}
+
+.form {
+  content: "";
+  clear: both;
+  display: table;
+  padding-left: 5%;
+}
+
 
 .item1 {
   max-width: 100%;
