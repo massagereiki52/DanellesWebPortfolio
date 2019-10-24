@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #1e1e1e;
   margin: 0;
 }
 
@@ -19,7 +19,7 @@ nav li {
   float: left;
   display: inline;
   width: 16.645%;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 svg {
@@ -33,18 +33,18 @@ img {
 }
 
 h1 {
-  font-family: 'Luminari';
+  font-family: 'Lucida', sans-serif;
   font-size: 10vw;
   text-align: center;
-  color: white;
+  color: #d9d8ce;
   padding: 0;
 }
 
 @font-face {
-  font-family: 'Luminari';
+  font-family: 'Lucida';
   font-style: normal;
   font-weight: bolder;
-  src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
+  src: local('Lucida'), url('Lucida-Grande-Bold.woff') format('woff');
 }
 
 li a {
@@ -59,24 +59,26 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-  color: white;
+  color: #d9d8ce;
 }
 
-@media screen and (max-width: 460px) {
+/* @media screen and (max-width: 460px) {
   li {
     width: 100% !important;
     float: none !important;
   }
+} */
+figcaption {
+  color: #d9d8c;
+  font-size: 2vw;
+  text-align: center;
+  color: #d9d8ce;
 }
 
-figcaption {
-  color: white;
-  font-size: 1.25vw;
-  text-align: center;
+label {
+  color: #d9d8c;
 }
-label{
-  color:white;
-}
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -89,16 +91,17 @@ input[type=text] {
 input[type=button], input[type=submit], input[type=reset] {
   background-color: #BD3DFF;
   border: none;
-  color: white;
+  color: #d9d8c;
   padding: 18px 32px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
 }
+
 .map {
   max-width: 25%;
   max-height: 25%;
-  border-style: solid white;
+  border-style: solid #d9d8c;
 }
 
 .form {
@@ -107,7 +110,6 @@ input[type=button], input[type=submit], input[type=reset] {
   display: table;
   padding-left: 5%;
 }
-
 
 .item1 {
   max-width: 100%;
@@ -124,6 +126,11 @@ input[type=button], input[type=submit], input[type=reset] {
   display: flex;
   align-content: center;
   overflow: hidden;
+}
+
+.gridcontainer {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -147,26 +154,23 @@ input[type=button], input[type=submit], input[type=reset] {
   font-size: 2vw;
 }
 
-.footer a {
-  color: black;
-  text-decoration: none;
-}
-
 .col-lg-4 {
   padding-left: 10%;
   padding-right: 10%;
-  color: white;
+  color: #d9d8c;
   text-align: center;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 100%;
   /* text-align: justify; */
 }
-.col-lg-4 a{
+
+.col-lg-4 a {
   text-decoration: none;
-  color: white;
+  color: #d9d8c;
   font-size: 1vw;
 }
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
