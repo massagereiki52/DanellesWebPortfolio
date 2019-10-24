@@ -7,7 +7,7 @@
   <!-- style -->
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Barriecito|Love+Ya+Like+A+Sister|Turret+Road&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="contact.css">
   <!-- main -->
   <link rel="welcome" href="index.html">
   <link rel="About" href="about.html">
@@ -19,33 +19,35 @@
 </head>
 
 <body>
-
-  <div class="welcome">
-    <img src="assets/webPortfolio.tif" alt="picture Danelle's Portfolio">
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Welcome</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="dynamic.html">HTML</a>
-        </li>
-        <li>
-          <a href="template.html">Templates</a>
-        </li>
-        <li>
-          <a href="wordPress.html">WordPress Pages</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <div class="gridcontainer">
 
 
+    <div class="item1">
+      <img src="assets/WebBannerDanelle.png" alt="picture Danelle's Portfolio">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Welcome</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="dynamic.html">HTML</a>
+          </li>
+          <li>
+            <a href="template.html">Templates</a>
+          </li>
+          <li>
+            <a href="wordPress.html">WordPress</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Contact</h1>
+    </div>
   </div>
   <div class="row">
     <div class="column">
@@ -53,38 +55,38 @@
         <img src="assets/map.png" alt="Map to Isanti">
       </a>
       <figcaption>Click Location</figcaption>
-      <p></p>
-    </div>
-    <div class="column form">
-      <form action="/action_page.php">
-        Name:<br>
-        <input type="text" name="lastname" value="name"><br>
-        Phone:
-        <br>
-        <input type="text" name="Phone_number" value="phone number"><br><br>
-        Email:
-        <br>
-        <input type="text" name="Email" value="Email"><br><br>
-        <label for="subject">Comment:</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200%"></textarea>
 
-        <input type="submit" value="Submit">
-        <input type="submit" value="Reset">
-      </form>
-    </div>
-    <div class="col-lg-4">
       <p>Designs by Danelle <br>
         12345 addresway <br>
         Isanti, MN 55040 <br>
-        <a href="mailto:danelle.vanvleet@gmail.com">CLICK TO EMAIL</a><br>
+        <a href="mailto:danelle.vanvleet@gmail.com">CLICK TO EMAIL danelle.vanvleet@gmail.com</a><br>
         <a href="tel:612-999-7891">CLICK TO CALL: 612-999-7891</a></p>
+    </div>
+    <div class="column form">
+      <form action="/action_page.php">
+        <label> Name:<br></label>
+        <input type="text" name="lastname" value="name"><br>
+        <label>Phone:</label>
+        <br>
+        <input type="text" name="Phone_number" value="phone number"><br><br>
+        <label> Email:</label>
+        <br>
+        <input type="text" name="Email" value="Email"><br><br>
+        <label for="subject">Comment:</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        <div class="buttons">
+          <input type="submit" value="Submit">
+          <input type="submit" value="Reset">
+      </form>
+    </div>
+  </div>
 
-    </div>
-    <div class="footer">
-      <footer>
-        &copy;2019DanelleVanVleet
-      </footer>
-    </div>
+  </div>
+  <div class="footer">
+    <footer>
+      &copy;2019DanelleVanVleet
+    </footer>
+  </div>
 
 </body>
 
