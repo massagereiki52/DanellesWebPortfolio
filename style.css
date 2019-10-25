@@ -37,6 +37,7 @@ h1 {
   text-align: center;
   color: #d9d8ce;
   padding: 0;
+
 }
 .column p{
 color: #d9d8ce;
@@ -96,6 +97,7 @@ figcaption {
   width: 25%; */
   padding-left: 5%;
   padding-right: 5%;
+margin-bottom: 10%;
 }
 
 .row::after {
@@ -103,7 +105,9 @@ figcaption {
   clear: both;
   display: table;
 }
-
+.figure{
+  margin-left:20%;
+}
 .footer {
   text-align: center;
   background-color: #BD3DFF;
@@ -138,11 +142,4 @@ svg {
 
 .marketing .col-lg-4 {
   text-align: center;
-}
-
-.about {
-  font-size: 1.5vw;
-  text-align: justify;
-  /* padding-left: 15%;
-  padding-right: 15%; */
 }
