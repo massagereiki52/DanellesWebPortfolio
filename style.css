@@ -37,11 +37,12 @@ h1 {
   text-align: center;
   color: #d9d8ce;
   padding: 0;
+}
 
+.column p {
+  color: #d9d8ce;
 }
-.column p{
-color: #d9d8ce;
-}
+
 @font-face {
   font-family: 'Lucida';
   font-style: normal;
@@ -93,11 +94,9 @@ figcaption {
 }
 
 .column {
-  /* float:left;
-  width: 25%; */
   padding-left: 5%;
   padding-right: 5%;
-margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .row::after {
@@ -105,9 +104,12 @@ margin-bottom: 10%;
   clear: both;
   display: table;
 }
-.figure{
-  margin-left:20%;
+
+.figure {
+  margin-left: 15%;
+  margin-right: 15%;
 }
+
 .footer {
   text-align: center;
   background-color: #BD3DFF;
@@ -115,8 +117,6 @@ margin-bottom: 10%;
   clear: both;
   font-size: 2vw;
 }
-
-
 
 .bd-placeholder-img {
   font-size: 1.125rem;
