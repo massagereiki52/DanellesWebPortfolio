@@ -1,5 +1,5 @@
 label {
-color: #d9d8ce;
+  color: #d9d8ce;
 }
 
 input[type=text] {
@@ -30,7 +30,7 @@ input[type=button], input[type=submit], input[type=reset] {
 .col-lg-4 {
   padding-left: 10%;
   padding-right: 10%;
-  color:#d9d8ce;
+  color: #d9d8ce;
   text-align: center;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
@@ -41,17 +41,29 @@ input[type=button], input[type=submit], input[type=reset] {
 .column a {
   text-decoration: none;
   color: #d9d8ce;
-  font-size: 1vw;
+  font-size: 20px;
 }
-
-
-
+.Designs{
+  color: #d9d8ce;
+  font-size: 30px;
+  padding: 0px;
+}
 .map {
-  max-width: 25%;
-  max-height: 25%;
-  border-style: solid #d9d8c;
+  max-width: 200px;
+  max-height: 200px;
+ 
 }
 
-.buttons{
-  padding-top: 2%;
+.mapFrame {
+  background: #BD3DFF;
+  padding: 8px;
+  border: 1px solid #BD3DFF;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+.conFooter {
+  padding: 20px;
 }
