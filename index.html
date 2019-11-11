@@ -2,10 +2,10 @@
 <html>
 
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- add: meta viewport-->
-<title>Portfolio</title>
+  <title>Portfolio</title>
   <!-- style -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
@@ -16,17 +16,18 @@
   <link rel="Templates" href="template.html">
   <link rel="Word Press" href="wordPress.html">
   <link rel="Contact" href="contact.html">
+  <link rel="stylesheet " href="jQuery.isc/jQuery.isc.css " type="text/css " media="screen " charset="utf-8 ">
 
 </head>
 
 <body>
-  <!-- <div class="gridcontainer"> -->
+  <div class="gridcontainer">
 
 
     <div class="item1">
-      <img src="assets/webPortfolio.png" alt="picture Danelle's Portfolio">
-      <nav>
-        <ul>
+      <img class="img_banner" src="assets/webPortfolio.png" alt="picture Danelle's Portfolio">
+      <div class="nav">
+        <ul class="sidenav">
           <li>
             <a href="index.html">Welcome</a>
           </li>
@@ -40,49 +41,57 @@
             <a href="template.html">Templates</a>
           </li>
           <li>
-            <a href="wordPress.html">Wix&WordPress</a>
+            <a href="wordPress.html">Word Press</a>
           </li>
           <li>
             <a href="contact.html">Contact</a>
           </li>
         </ul>
-      </nav>
+      </div>
       <h1>Welcome</h1>
-    </div> -->
+    </div>
+
+
     <div class="figure">
       <div class="row">
-        <div class="column padding1">
+        <div class="column">
           <a href="https://www.codyjames.org/">
-            <img src="assets/CodyJames.png" alt="CodyJames">
+            <img class="img_main" src="assets/CodyJames.png" alt="CodyJames">
+            <figcaption>Click Here<br>Cody James' Wix</figcaption>
           </a>
-          <figcaption>Click Here<br>Cody James' Wix</figcaption>
+
 
           <a href="https://massagereiki52.github.io/lightBox2/">
-            <img src="assets/LightBox.png" alt="LightBox webpage">
+            <img class="img_main" src="assets/LightBox.png" alt="LightBox webpage">
+            <figcaption>Click Here<br>Light Box.</figcaption>
           </a>
-          <figcaption>Click Here<br>Light Box.</figcaption>
+
 
           <a href="https://massagereiki52.github.io/ChurchTemplate/index.html">
-            <img src="assets/ChurchTemplate.png" alt="Church Template Website Thumbnail">
+            <img class="img_main" src="assets/ChurchTemplate.png" alt="Church Template Website Thumbnail">
+            <figcaption>Click Here<br>Church Template</figcaption>
           </a>
-          <figcaption>Click Here<br>Church Template</figcaption>
 
-          <a href="http://danellevanvleet.com/EpilepsyShop/">
-            <img src="assets/epilepsyAwareness.png" alt="Epilepsy Awareness thumbnail">
+
+          <a href="http://danellevanvleet.com/EpilepsyShop/shop/">
+            <img class="img_main" src="assets/EpilepsyAwareness.png" alt="Epilepsy Awareness thumbnail">
+            <figcaption>Click Here <br> Epilepsy Awareness</figcaption>
           </a>
-          <figcaption>Click Here <br> Epilepsy Awareness Eccomerce</figcaption>
+
         </div>
       </div>
     </div>
+
+
     <div class="grid-item item2">
-      <img src="assets/fishing.gif" alt="Fishing Gif" max-width="100%" max-height="100%">
+      <img class="img_main" src="assets/fishing.gif" alt="Fishing Gif" max-width="100%" max-height="100$">
     </div>
   </div>
   <div class="footer">
     <footer>
       &copy;2019DanelleVanVleet
     </footer>
-</div>
+  </div>
 
 
 </body>

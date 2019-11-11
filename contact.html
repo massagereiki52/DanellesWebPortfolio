@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
   <!-- style -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Barriecito|Love+Ya+Like+A+Sister|Turret+Road&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Barriecito|Love+Ya+Like+A+Sister|Turret+Road&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="form.css">
   <!-- main -->
   <link rel="welcome" href="index.html">
   <link rel="About" href="about.html">
@@ -17,16 +23,21 @@
   <link rel="Word Press" href="wordPress.html">
   <link rel="Contact" href="contact.html">
 
+
+
+
+  <!-- <script src="form.js"></script> -->
 </head>
 
 <body>
+
   <div class="gridcontainer">
 
 
     <div class="item1">
-      <img src="assets/webPortfolio.png" alt="picture Danelle's Portfolio">
-      <nav>
-        <ul>
+      <img class="img_banner" src="assets/webPortfolio.png" alt="picture Danelle's Portfolio">
+      <div class="nav">
+        <ul class="sidenav">
           <li>
             <a href="index.html">Welcome</a>
           </li>
@@ -46,52 +57,73 @@
             <a href="contact.html">Contact</a>
           </li>
         </ul>
-      </nav>
+      </div>
       <h1>Contact</h1>
     </div>
 
-    <div class="row">
-      <div class="column">
-        <div class="mapFrame">
+
+    <div class="figure">
+
+
+      <div class="row">
+        <div class="column">
           <a href="https://www.google.com/maps/place/Isanti,+MN+55040/@45.4913394,-93.2573177,14z/data=!3m1!4b1!4m5!3m4!1s0x52b305b64fc3cf1f:0xf932449b0fbde105!8m2!3d45.4894008!4d-93.2476091?hl=en&authuser=0">
-            <img src="assets/map.png" alt="Map to Isanti">
+            <img class="img_main" src="assets/map.png" alt="Map to Isanti">
+            <figcaption>Click Location</figcaption>
           </a>
         </div>
-
-
-        <figcaption>Click Location</figcaption>
-        <div class="column">
-
-          <p class="Designs">Designs by Danelle<br>
-            Isanti, MN 55040 <br>
-            <a href="mailto:danelle.vanvleet@gmail.com">CLICK TO EMAIL <br>danelle.vanvleet@gmail.com</a><br>
-            <a href="tel:612-999-7891">CLICK TO CALL:<br> 612-999-7891</a></p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="form">
-
-          <!-- <form action="/action_page.php"> -->
-          <form action="mail.php" method="POST">
-            <p class="Designs">Name</p> <input type="text" name="name">
-            <p class="Designs">Email</p> <input type="text" name="email">
-            <p class="Designs">Phone</p> <input type="text" name="phone">
-            <p class="Designs">Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-            <input type="submit" value="Send"><input type="reset" value="Clear">
-          </form>
-          </form>
-        </div>
-
       </div>
     </div>
-  </div>
-
-  <div class="footer conFooter">
-    <footer>
-      &copy;2019DanelleVanVleet
-    </footer>
-  </div>
-
+    <div class="address">
+      <p>Designs by Danelle <br>
+        12345 addresway <br>
+        Isanti, MN 55040 <br>
+        <a href="mailto:danelle.vanvleet@gmail.com">CLICK TO EMAIL</a><br>
+        <a href="tel:612-999-7891">CLICK TO CALL: 612-999-7891</a></p>
+    </div>
+    <div class="container form-top">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+          <div class="panel panel-danger">
+            <div class="panel-body">
+              <form id="reused_form">
+                <div class="form-group">
+                  <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                  <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                  <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                  <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                  <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                  <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                </div>
+              </form>
+              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                <h4>
+                  Error
+                </h4>
+                Sorry there was an error sending your form.
+              </div>
+              <div id="success_message" style="width:100%; height:100%; display:none; ">
+                <h2>Success! Your Message was Sent Successfully.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        &copy;2019DanelleVanVleet
+      </footer>
+    </div>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+<script src="form.js"></script>
 </body>
 
 
