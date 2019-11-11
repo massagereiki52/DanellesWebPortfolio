@@ -7,6 +7,10 @@
     padding-top: 30px;
   }
 
+  .selfportrait {
+    width: 75%;
+  }
+
   .column {
     width: 800px;
     margin: 0 auto;
@@ -16,22 +20,38 @@
     padding: 20px 0px 0px;
     margin: 0 auto;
   }
-
 }
 
 @media only screen and (min-width: 1200px) {
   .column {
     width: 1200px;
   }
+
   .column p {
+    font-size: 2vmax;
     padding: 20px 0px 30px;
-}
-ul li {
-    display:inline-block;
+  }
+
+  ul li {
+    display: inline-block;
     text-align: -webkit-match-parent;
+  }
+
+  ul li a {
+    margin-left: 40px;
+  }
+.map{
+  width: 35%;
+  margin-left: 33%;
 }
+  .portrait figcaption {
+    padding-bottom: 20px;
+    font-size: 1vmax;
+    padding-left: 10%;
+  }
 
-ul li a{
-  margin-left:40px;
-
+  .selfportrait {
+    width: 35%;
+    margin-left: 37%;
+  }
 }

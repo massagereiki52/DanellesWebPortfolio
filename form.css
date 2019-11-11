@@ -51,3 +51,8 @@
     border-radius: 4px;
     background-color: #1e1e1e;
 }
+.btn:hover{
+  background-color: #BD3DFF;
+  color:#1e1e1e;
+  opacity: 0.7;
+}
