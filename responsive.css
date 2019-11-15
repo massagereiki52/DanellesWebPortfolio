@@ -1,3 +1,5 @@
+
+/* TABLET RESPONSIVE */
 @media only screen and (min-width: 768px) {
   .img_banner {
     display: block;
@@ -22,6 +24,7 @@
   }
 }
 
+/* COMPUTER SCREEN RESPONSIVE */
 @media only screen and (min-width: 1200px) {
   .column {
     width: 1200px;

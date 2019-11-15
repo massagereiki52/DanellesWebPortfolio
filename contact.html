@@ -3,6 +3,7 @@
 
 
 <head>
+  <!-- meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,10 +24,11 @@
   <link rel="Word Press" href="wordPress.html">
   <link rel="Contact" href="contact.html">
 
+  <!-- php -->
+  <link rel="form php" href="contact.php">
+  <link rel="handler php" href="handler.php">
 
 
-
-  <!-- <script src="form.js"></script> -->
 </head>
 
 <body>
@@ -56,23 +58,30 @@
           <li>
             <a href="contact.html">Contact</a>
           </li>
+          <!-- end sidenav -->
         </ul>
+        <!-- end nav -->
       </div>
+
       <h1>Contact</h1>
+      <!-- end itmem1 -->
     </div>
 
 
     <div class="figure">
-
-
       <div class="row">
         <div class="column">
+
+          <!-- map link -->
           <a href="https://www.google.com/maps/place/Isanti,+MN+55040/@45.4913394,-93.2573177,14z/data=!3m1!4b1!4m5!3m4!1s0x52b305b64fc3cf1f:0xf932449b0fbde105!8m2!3d45.4894008!4d-93.2476091?hl=en&authuser=0" width="450" height="410">
             <img class="map" src="assets/map.png" alt="Map to Isanti">
             <figcaption>Click Location</figcaption>
           </a>
+          <!-- end column -->
         </div>
+        <!--end row  -->
       </div>
+      <!-- end figrue -->
     </div>
     <div class="address">
       <p>Designs by Danelle <br>
@@ -80,6 +89,7 @@
         Isanti, MN 55040 <br>
         <a href="mailto:danelle.vanvleet@gmail.com">CLICK TO EMAIL</a><br>
         <a href="tel:612-999-7891">CLICK TO CALL: 612-999-7891</a></p>
+      <!-- end address -->
     </div>
     <div class="container form-top">
       <div class="row">
@@ -87,43 +97,70 @@
           <div class="panel panel-danger">
             <div class="panel-body">
               <form id="reused_form">
+                <!-- form group 1 -->
                 <div class="form-group">
                   <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
                   <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                  <!-- end form group 1 -->
                 </div>
+                <!-- form group 2 -->
+
                 <div class="form-group">
                   <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
                   <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                  <!-- end form group 2  -->
                 </div>
+
+                <!-- form group 3 -->
                 <div class="form-group">
                   <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
                   <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                  <!-- end form group 3 -->
                 </div>
+
+                <!-- form group 4 -->
                 <div class="form-group">
                   <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                  <!-- end form-group 4-->
                 </div>
+
+                <!-- end reused_form -->
               </form>
               <div id="error_message" style="width:100%; height:100%; display:none; ">
                 <h4>
                   Error
                 </h4>
                 Sorry there was an error sending your form.
+                <!-- end error_message -->
               </div>
               <div id="success_message" style="width:100%; height:100%; display:none; ">
                 <h2>Success! Your Message was Sent Successfully.</h2>
+                <!-- end success_message -->
               </div>
+              <!-- end panel-body -->
             </div>
+            <!-- end panel panel-danger -->
           </div>
+          <!-- end col-md-6 col-md-offset-3 col-sm-12 col-xs-12  -->
         </div>
+        <!-- end row -->
       </div>
+      <!-- container form-top end -->
     </div>
-    <div class="footer">
-      <footer>
-        &copy;2019DanelleVanVleet
-      </footer>
-    </div>
-      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-<script src="form.js"></script>
+    <!-- gridcontainer end -->
+  </div>
+  <!-- footer -->
+  <div class="footer">
+    <footer>
+      &copy;2019DanelleVanVleet
+    </footer>
+    <!-- end footer -->
+  </div>
+
+  <!-- script tags -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="form.js"></script>
+
 </body>
 
 

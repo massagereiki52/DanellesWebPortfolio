@@ -11,33 +11,7 @@ body {
   background-color: #1e1e1e;
 }
 
-svg {
-  verflow: hidden;
-  vertical-align: middle;
-}
-
-h1 {
-  font-family: 'Lucida Grande', sans-serif;
-  font-size: 10vmax;
-  text-align: center;
-  color: #d9d8ce;
-  padding: 0;
-  padding-bottom: 20px;
-}
-
-figcaption {
-  color: #d9d8ce;
-  font-size: 3vmax;
-  text-align: center;
-  padding-top: 5px;
-}
-
-@font-face {
-  font-family: 'Lucida';
-  font-style: normal;
-  font-weight: bolder;
-  src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
-}
+/* NAVIGATION */
 
 ul li a {
   font-family: 'Lucida Grande', sans-serif;
@@ -57,42 +31,47 @@ ul li a:hover {
   color: #d9d8ce;
   text-decoration: none;
 }
+.nav {
+  background-color: #BD3DFF;
+}
+
+
+/* MAIN TITLE CSS */
+h1 {
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 10vmax;
+  text-align: center;
+  color: #d9d8ce;
+  padding: 0;
+  padding-bottom: 20px;
+}
+/* FIGRUE CAPTION CSS */
+figcaption {
+  color: #d9d8ce;
+  font-size: 3vmax;
+  text-align: center;
+  padding-top: 5px;
+}
+
 
 label {
   color: #d9d8ce;
 }
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #BD3DFF;
-  border-radius: 4px;
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #BD3DFF;
-  border: none;
-  color: #d9d8ce;
-  padding: 18px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
+/* IMAGES CSS */
+/* main page images */
 .img_main {
   width: 100%;
   height: auto;
   repeat: none;
 }
-
+/* about page image */
 .selfportrait {
   width: 100%;
   height: auto;
   repeat: none;
 }
-
+/* banner image */
 .img_banner {
   width: 100%;
   height: auto;
@@ -100,16 +79,13 @@ input[type=button], input[type=submit], input[type=reset] {
   color: #d9d8ce;
 }
 
-.self {
-  font-size: 2vmax;
-}
-
+/* IMAGE FIGCAPTION CSS portrait*/
 .portrait figcaption {
   padding-bottom: 20px;
   font-size: 2vmax;
   font-weight: 500;
 }
-
+/* MAP IMAGE CSS */
 .map {
   max-width: 100%;
   max-height: auto;
@@ -135,12 +111,13 @@ input[type=button], input[type=submit], input[type=reset] {
   text-decoration: none;
 }
 
-.form {
-  content: "";
-  clear: both;
-  display: table;
-  padding-left: 5%;
+@font-face {
+  font-family: 'Lucida';
+  font-style: normal;
+  font-weight: bolder;
+  src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
 }
+
 
 .item1 {
   max-width: 100%;
@@ -149,21 +126,14 @@ input[type=button], input[type=submit], input[type=reset] {
   text-decoration: none;
 }
 
-.nav {
-  background-color: #BD3DFF;
-}
 
 .item2 {
   padding-left: 25%;
   padding-right: 25%;
 }
 
-.row {
-  display: flex;
-  align-content: center;
-  overflow: hidden;
-}
 
+/* COLUMN CSS */
 .column {
   float: none;
   width: 100%;
@@ -187,6 +157,12 @@ input[type=button], input[type=submit], input[type=reset] {
   text-decoration: none;
   padding-bottom: 20px;
 }
+/* ROW CSS */
+.row {
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+}
 
 .row::after {
   content: "";
@@ -194,6 +170,7 @@ input[type=button], input[type=submit], input[type=reset] {
   display: table;
 }
 
+/* FOOTER CSS */
 .footer {
   font-family: 'Lucida Grande', sans-serif;
   font-weight: bold;
@@ -202,26 +179,4 @@ input[type=button], input[type=submit], input[type=reset] {
   content: "";
   clear: both;
   font-size: 3vmax;
-}
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.rounded-circle {
-  border-radius: 50% !important;
-}
-
-svg {
-  overflow: hidden;
-  vertical-align: middle;
-}
-
-.marketing .col-lg-4 {
-  text-align: center;
 }
