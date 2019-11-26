@@ -1,6 +1,9 @@
-
 /* TABLET RESPONSIVE */
 @media only screen and (min-width: 768px) {
+  ul li a {
+    font-size: 4vmax;
+  }
+
   .img_banner {
     display: block;
   }
@@ -11,6 +14,25 @@
 
   .selfportrait {
     width: 75%;
+    padding-left: 25%;
+  }
+
+  .map {
+    width: 80%;
+    padding-left: 20%;
+  }
+
+  .portrait figcaption {
+    font-size: 3.5vmax;
+  }
+
+  .form-top {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .portrait p {
+    font-size: 2.5vmax;
   }
 
   .column {
@@ -18,21 +40,37 @@
     margin: 0 auto;
   }
 
-  .column p {
-    padding: 20px 0px 0px;
-    margin: 0 auto;
+  .column img {
+    padding-bottom: 2rem;
+  }
+
+  .address p {
+    font-size: 2vmax;
+    padding-bottom: 3rem;
+  }
+
+  .address p a {
+    font-size: 3.5vmax;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    text-decoration: none;
   }
 }
 
 /* COMPUTER SCREEN RESPONSIVE */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 969px) {
   .column {
-    width: 1200px;
+    width: 969px;
   }
 
   .column p {
     font-size: 2vmax;
-    padding: 20px 0px 30px;
+    margin-left: 4.25rem;
+    margin-right: 4.25rem;
+  }
+
+  .column img {
+    padding-bottom: 5rem;
   }
 
   ul li {
@@ -41,20 +79,40 @@
   }
 
   ul li a {
-    margin-left: 40px;
-  }
-.map{
-  width: 35%;
-  margin-left: 33%;
-}
-  .portrait figcaption {
-    padding-bottom: 20px;
-    font-size: 1vmax;
-    padding-left: 10%;
+    font-size: 2.75vmax;
+    padding-left: 1.5rem;
   }
 
-  .selfportrait {
-    width: 35%;
-    margin-left: 37%;
+  .img_main {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
+
+  .map {
+    width: 75%;
+    margin-left:4rem;
+    margin-right: 4rem;
+  }
+
+  .self{
+    padding-top: 1rem;
+  }
+.portrait p{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+  .selfportrait {
+    width: 70%;
+    margin-left:2rem;
+  }
+  .skills p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .form-top {
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+
 }
