@@ -33,6 +33,8 @@
 
   .portrait p {
     font-size: 2.5vmax;
+    font-weight: 500;
+    color: #d9d8ce;
   }
 
   .column {
