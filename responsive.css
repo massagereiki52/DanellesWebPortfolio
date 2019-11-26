@@ -60,20 +60,23 @@
 }
 
 /* COMPUTER SCREEN RESPONSIVE */
-@media only screen and (min-width: 969px) {
+@media only screen and (min-width: 960px) {
   .column {
-    width: 969px;
+    width: 960px;
   }
 
   .column p {
-    font-size: 2vmax;
-    margin-left:2rem;
-    margin-right: 2rem;
+    font-size: 1.75vmax;
+    margin-left:.5rem;
+    margin-right: .5rem;
     margin-bottom: 3rem;
+    text-align:justify;
   }
-
+  .portrait figcaption {
+    font-size: 3vmax;
+  }
   .column img {
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
   }
 
   ul li {
@@ -91,8 +94,8 @@
 }
   .img_main {
     width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .map {
@@ -125,8 +128,3 @@
     padding-right: 2rem;
   }
 /*
-  .column a p {
-    padding-bottom: 4.5rem;
-    /* padding-top: .5rem; */
-  /* } */
-}
