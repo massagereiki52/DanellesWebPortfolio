@@ -32,7 +32,7 @@
   }
 
   .portrait p {
-    font-size: 2.5vmax;
+    font-size: 3vmax;
     font-weight: 500;
     color: #d9d8ce;
   }
@@ -47,7 +47,7 @@
   }
 
   .address p {
-    font-size: 2vmax;
+    font-size: 3.5vmax;
     padding-bottom: 3rem;
   }
 
@@ -61,22 +61,36 @@
 
 /* COMPUTER SCREEN RESPONSIVE */
 @media only screen and (min-width: 960px) {
+  .gridcontainer {
+    width: 960px;
+  }
+
   .column {
     width: 960px;
   }
 
+  .column a {
+    padding-top: 10%;
+  }
+
   .column p {
-    font-size: 1.75vmax;
-    margin-left:.25rem;
+    font-size: 1vmax;
+    margin-left: .25rem;
     margin-right: .25rem;
     margin-bottom: 3rem;
-    text-align:justify;
+    text-align: center;
   }
+
   .portrait figcaption {
-    font-size: 3vmax;
+    font-size: 2.5vmax;
   }
+
   .column img {
     padding-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 15%;
   }
 
   ul li {
@@ -85,14 +99,29 @@
   }
 
   ul li a {
-    font-size: 2.75vmax;
-    padding-left: 2rem;
+    font-size: 2.2vmax;
+    margin-left: 1.5rem;
+    /* margin-right: .5rem; */
+  }
+
+  ul.contact-nav {
+    margin-bottom: -.97rem;
+    padding-left: 15%;
+    padding-right: 10%;
+  }
+
+  ul.contact-nav li {
+    margin-bottom: 1rem;
+  }
+
+  ul.contact-nav ul li a {
+    font-size: 2vmax;
+    margin-left: 1rem;
+    margin-right: 3%;
   }
 
   .img_main {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
   }
 
   .map {
@@ -126,4 +155,27 @@
     padding-right: 2rem;
   }
 }
-/*
+
+@media only screen and (min-width:1200px) {
+  .gridcontainer {
+    width: 100%;
+  }
+
+  .skills p {
+    font-size: 1.5vmax;
+  }
+
+  .column p {
+    font-size: 1.5vmax;
+  }
+  .column a p {
+
+    font-size: 1.65vmax;
+  }
+
+  ul.contact-nav {
+    margin-bottom: -1rem;
+    padding-left: 20%;
+    padding-right: 5%;
+  }
+}

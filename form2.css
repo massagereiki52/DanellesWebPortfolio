@@ -1,8 +1,13 @@
-.form {
-  content: "";
-  clear: both;
-  display: table;
-  padding-left: 5%;
+
+html
+{
+  height:100%;
+  width:100%;
+}
+body{
+  background-size: cover;
+  height:100%;
+
 }
 
 .form-top{
@@ -26,25 +31,28 @@
     color: #fff;
     font-size: 20px;
     background-color: #1e1e1e;
-    border-color:#1e1e1e;
+    border-color: #1e1e1e;
+}
+.btn-warning{
+  background-color: transparent;
+  border-color: #bdc3c7;
 }
 
 .form-control{
-  border: 2px solid #1cbcee;
+  border: 2px solid #BD3DFF;
 }
-
 /* FORM INPUT */
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #1cbcee;
+  border: 2px solid #BD3DFF;
   border-radius: 4px;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-  background-color: #1cbcee;
+  background-color: #BD3DFF;
   border: none;
   color: #d9d8ce;
   padding: 18px 32px;
